@@ -1,0 +1,58 @@
+.TMAst{
+    background-color: #f8fafc;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    position: relative;
+    overflow: hidden;
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 250, 252, var(--tw-bg-opacity));
+}
+.TMAStdi{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 72rem;
+    margin: auto;
+}
+.tmaheader{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+.changecolheader{
+    color: rgb(255, 98, 0);
+}
+.TMasec{
+    display: flex;
+    justify-content: center;
+}
+.ima{
+    color: transparent;
+    z-index: 20;
+    position: relative;
+}
+.buttonpara{
+    padding: 0.5rem,1.5rem,0.5rem,1.5rem;
+    border-radius: .25rem;
+    position: relative;
+}
+.spli{
+    position: relative;
+    z-index: 10;
+}
+.l1i{
+    text-decoration: inherit;
+}
+.TMAst2{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
