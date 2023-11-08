@@ -1,0 +1,213 @@
+.main-section{
+  display: grid;
+  grid-template-columns: 60% 30%;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  padding-right: 2rem;
+}
+
+b{
+  color: black;
+}
+
+.page-semi-title{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: sans-serif;
+  vertical-align: inherit;
+}
+
+.para-section-diff{
+  display: block;
+  background-color: #f4f7fc;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  line-height: 1.8rem;
+}
+
+.para-section-down{
+  font-family: sans-serif;
+  vertical-align: inherit;
+  color: #797E89;
+  line-height: 1.8rem;
+}
+
+u{
+  color: #eb9018;
+}
+
+.previous-page{
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  font-family: sans-serif;
+  vertical-align: inherit;
+  color: #797E89;
+  cursor: pointer;
+}
+
+.arrow-back{
+  font-size: 16px;
+}
+
+.second-section{
+  padding-left: 5rem;
+  font-family: sans-serif;
+  vertical-align: inherit;
+}
+
+.search-section{
+  padding: 10px;
+  color: #9EA5B1;
+  background-color: #F8FBFD;
+  border-color: #E4E7EA;
+  border-width: 2px;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.search-button{
+  padding: 10px;
+  border: none;
+  background-color: #324055;
+  color: #F8FBFD;
+  font-size: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; 
+}
+
+.search-blog-section{
+  display: grid;
+  grid-template-columns: 200px 100px;
+  padding-bottom: 50px;
+}
+
+.item-categores-title{
+  color: #eb9018;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.item-categores-list{
+  color: #A4B1C3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.media-image{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.image-media{
+  height: 55px;
+}
+
+.button-vertical{
+  display: grid;
+  grid-row: inherit;
+
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+}
+.background-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, rgba(0, 0, 0, 0.2) 100%),url("https://esalink.codiceo.fr/app/uploads/2023/10/CALENDRIER.jpg");
+  height: 550px;
+  width: 100%;
+  background-position: center;
+  box-shadow: 0 -6px 17px 9px rgba(0,0,0,.3), -2px 4px 10px 0 hsla(0,0%,100%,0);
+  
+}
+.para1{
+  
+  color: white;
+  margin-top: 0;
+  font-weight: bold;
+  padding-top: 9.5%;
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+.para2{
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  padding-right: 1%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+.text3{
+  
+  color: white;
+  font-size: 57px;
+  font-family: sans-serif;
+  font-weight: bold;
+  
+}
+
+.para-section{
+  padding-left:15px ;
+}
+
+.button-design {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border:none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  background: #324055;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.button-design:hover {
+  color: white;
+  background: transparent;
+}
+
+.button-design::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(0deg);
+  background: linear-gradient(to right, #5d00ff, rgb(255, 0, 217));
+  z-index: -1;
+  transition: all 1s;
+}
+
+.button-design:hover::before {
+  width: 160%;
+}
+
+.image-bleu{
+  height: 200px;
+}
+
+.content-grid{
+  display: grid;
+  grid-template-columns: 10% 80%;
+}
+
+.ligth-image{
+  align-items: center;
+  height: 57px;
+}
