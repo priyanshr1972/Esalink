@@ -1,3 +1,94 @@
+.secondSection {
+  margin: 15vh 0 10vh 5vh;
+  background-color: #f8fafc;
+}
+
+.secondHeader {
+  font-size: 60px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellowFont {
+  color: #eb9018;
+  margin-left: 20px;
+}
+
+.secondBodyContainer {
+  height: 110vh;
+  display: flex;
+}
+
+.secondBodyContainer > div {
+  width: 50%;
+}
+
+#circleImg{
+  width: 70%;
+  transition: transform 0.5s;
+}
+
+.secCircleCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.descHeaderSec {
+  font-size: 35px;
+  font-weight: 700;
+  padding-left: 30px;
+}
+
+.secHrCont {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.secHr {
+  background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  height: 2px;
+  width: 90%;
+}
+
+.secDescHeader {
+  font-weight: 700;
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.secDescText {
+  margin: 10px 0;
+}
+
+.secondCircleDesc {
+  display: none;
+  padding: 0 20px 0 30px;
+}
+.activeCircle {
+  display: block;
+}
+
+.circleButtonCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.circleButtonCont > button {
+  border: 3px solid #98d9eb;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.circleButtonCont > button:hover {
+  background-color: #98d9eb5e;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
