@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Outfit;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.tmaMainContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.tmaMainpart1 {
+    margin: 20 px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: Outfit;
+
+}
+.tmaMainpart1 h1 span{
+    color: #FF914D;
+}
+.tmaSubpart2{
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 100px;
+}
+.tmaSubpart1{
+    position: relative;
+    text-align: center;
+    font-size: 21px;
+
+}
+.tmaMainpart1 img{
+    width: 350px;
+}
+/* .tmaSubpart2button{
+    width: 220px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+} */
+.tmaSubpart2div{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    font-weight: 50;
+}
+/* .tmaSubpart2button:hover{
+    background-color: #8B78F7;
+} */
+.tmaSubpart2button {
+    width: 220px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tmaSubpart2button::before {
+    content: "";
+    background-color: #8B78F7;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 0;
+    height: 100%;
+    transition: width 0.3s; 
+    z-index: -1;
+}
+
+.tmaSubpart2button:hover::before {
+    width: 100%; 
+    transform: skewX(0deg);
+}
+
+.tmaSubpart2button:hover {
+    background-color: #8B78F7;
+    color: white;
+}
+
+.tmaSubpart2div p{
+    font-size: 20px;
+}
+.tmaMainpart2{
+   position: relative;
+   z-index: 2;
+   height: 110vh;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tmaMainpart2subdiv{
+    position: absolute;
+    width: 50vw;
+    top: 150px;
+    right: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    
+}
+.tmaMainpart2backgroundiamge{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tmaMainpart2 h1{
+    top: 30%;
+    left: 40%;
+    color: white;
+    font-size: 45PX;
+}
+.tmaMainpart2sub2{
+    background-color: rgba(0, 0, 0, 0.399);
+    border-radius: 7px;
+    padding: 20px ;
+    font-size: 20px;
+}
+.tmaMainpart2icon{
+    height: 70px;
+}
+.tmaMainpart2sub2divpara{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 24px;
+    margin: 8px 0;
+}
+.tmaMainpart2sub3{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tmaMainpart2sub3 button{
+    width: 370px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+}
+.tmaMainpart2sub3 button:hover{
+    background-color: #8B78F7;
+}
+.tmaMainpart3{
+    margin: 20 px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+    align-items: center;
+    justify-content: center;
+    font-family: Outfit;
+    
+}
+.tmaMainpart3sub1 {
+    font-size: 30px;
+}
+.tmaMainpart3sub1 span{
+    color: #FF914D;
+}
+.tmaMainpart3sub2{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.tmaMainpart3sub2listandpara{
+    display: flex;
+    flex-direction: column;
+}
+.tmaMainpart3sub2img{
+    width: 200px;
+}
+.tmaMainpart3sub2ul{
+
+    list-style: none;
+}
+.tmaMainpart3sub2ul li{
+    font-size: 30px;
+}
+.tmaMainpart3sub2ul li::before {
+    content: "\2022";  
+    color: #FF914D; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+  .tmaMainpart3Subpartmax{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+  }
+.tmaMainpart4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.tmaMainpart4sub2{
+    display: flex;
+    gap: 20px;
+    margin: 10px auto;
+    padding: 10px ;
+}
+.tmaMainpart4icon{
+    height: 90px;
+}
+.tmaMainpart4sub1 span{
+    color: #FF914D;
+}
+.tmaMainpart4sub1 {
+    font-size: 25px;
+}
+.tma_Container_Tma_card_priyansh{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Tma_card_priyansh {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.Tma_card_priyansh:hover {
+    transform: scale(1.05);
+}
+
+.Tma_card_priyansh img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Tma_card_priyansh h2 {
+    margin: 10px 0;
+}
+
+.Tma_card_priyansh_icon {
+    width: 100px;
+    height: 100px;
+    fill: #655f5f; /* Initial color of the SVG Tma_card_priyansh_icon */
+    transition: fill 0.3s ease; /* Smooth transition for color change */
+}
+
+.Tma_card_priyansh:hover .Tma_card_priyansh_icon {
+    fill: #5CA0ED; /* Color of the SVG Tma_card_priyansh_icon on hover */
+}
+@media  only screen and (max-width:600px) {
+    
+}
