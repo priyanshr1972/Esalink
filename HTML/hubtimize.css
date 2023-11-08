@@ -1,0 +1,64 @@
+.Hubtimize_trade_main_container{
+
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+
+}
+.Hubtimize_trade_sub_container{
+    
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.Hubtimize_trade_image{
+    color: transparent;
+    width: 33.33333333%;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    
+
+}
+.Hubtimize_trade_title{
+    font-weight: 300;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    text-align: center;
+    max-width: 72rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(92, 160, 237);
+    opacity: 1;
+}
+.Hubtimize_trade_images_garelly{
+  
+    max-width: 72rem; 
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem; 
+}
+.Hubtimize_trade_images_garelly >img{
+    
+ 
+    height: 70px; 
+    width: auto;
+      
+       
+    
+
+}
