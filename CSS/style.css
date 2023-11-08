@@ -1,58 +1,409 @@
-.TMAst{
-    background-color: #f8fafc;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    position: relative;
-    overflow: hidden;
-    --tw-bg-opacity: 1;
-    background-color: rgba(248, 250, 252, var(--tw-bg-opacity));
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap");
+* {
+  font-family: outfit;
 }
-.TMAStdi{
+.TMAst {
+  background-color: #f8fafc;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  position: relative;
+  overflow: hidden;
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 250, 252, var(--tw-bg-opacity));
+}
+.tem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TMAStdi {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 72rem;
+  margin: auto;
+}
+.tmaheader {
+  color:#6B7280;
+  font-weight: 600;
+  font-family: Outfit;
+  text-align: center;
+  margin-bottom: 6rem;
+  font-size: 2rem;
+  margin-left: 10px;
+}
+.hrline {
+  width: 17%;
+  height: 1px;
+  background-color: #e2e8f0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.lii {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+.changecolheader {
+  --tw-text-opacity: 1;
+  color: rgb(235 144 24 / var(--tw-text-opacity));
+}
+
+.imag {
+  width: 100%; /* Set width to 100% for fluidity */
+  height: 100%;
+}
+
+.temlist {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  flex-direction: row;
+  gap: 5px;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+.para {
+  display: flex;
+  color:#6B7280;
+  margin-right: 10%;
+  flex-direction: column;
+  gap: 100px;
+  font-weight: 50;
+}
+.btttn {
+  display: inline-block;
+  padding: 0.9rem 1.8rem;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  border: 4px solid #8b78f7;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  font-family: inherit;
+  /* --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity)); */
+}
+
+.btttn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #8b78f7;
+  transform: translateX(-100%);
+  transition: all 0.3s;
+  z-index: -1;
+}
+.ste1{
+  width: 100%;
+}
+.btttn:hover::before {
+  transform: translateX(0);
+}
+
+.TMasec {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 100px;
+}
+.buttonpara {
+  padding: 0.5rem, 1.5rem, 0.5rem, 1.5rem;
+  border-radius: 0.25rem;
+  position: relative;
+}
+.spli {
+  position: relative;
+  z-index: 10;
+}
+.l1i {
+  text-decoration: inherit;
+}
+.TMAst2 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  border: 2px solid rgb(92 160 237);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 0.3s; /* This creates a circle by setting the border radius to 50% */
+}
+.circle2 {
+  width: 85px;
+  height: 85px;
+  border: 2px solid rgb(92 160 237);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+  border-radius: 50%; /* This creates a circle by setting the border radius to 50% */
+}
+.circle3 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s;
+  align-items: center;
+  border: 2px solid rgb(92 160 237);
+  border-radius: 50%; /* This creates a circle by setting the border radius to 50% */
+}
+
+.lis {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.circle:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(92 160 237/var(--tw-border-opacity));
+  background-color: rgb(92 160 237/var(--tw-border-opacity));
+   /* Change background color to blue on hover */
+}
+.circle2:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(92 160 237/var(--tw-border-opacity));
+  background-color: rgb(92 160 237/var(--tw-border-opacity));
+   /* Change background color to blue on hover */
+}
+.circle3:hover {
+  --tw-border-opacity: 1;
+    border-color: rgb(92 160 237/var(--tw-border-opacity));
+    background-color: rgb(92 160 237/var(--tw-border-opacity));
+     /* Change background color to blue on hover */
+}
+.litstyle {
+  list-style: none;
+  color:#6B7280;
+  /* padding-top: 20px; */
+}
+.litstyle li::before {
+  content: "\2022";
+  color: rgb(255, 98, 0);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.TMAst3 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+
+.div4tm5{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  gap: 5%;
+  flex-direction: column;
+ }
+ .div4125{
+  
+  display: flex;
+  justify-content: space-evenly;
+  
+  width: 100%;
+
+  height: 50%;
+  gap: 2%;
+ }
+ .div4113 {
+  color: #6B7280;
+  
+  width: 100%;
+  height: 40vh;
+  overflow: hidden;
+  
+  margin: 10vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(white, white), linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.div4114{
+  font-stretch: 2rem;
+}
+
+.div4113 p {
+  display: none;
+  padding: 10px;
+}
+
+.div4113:hover p {
+
+  display: block;
+}
+.div4113:hover .div4114 {
+
+  display: none;
+}
+
+/* Base styles for all screen sizes */
+
+/* Media Query 1: Target screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+  .TMAst {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .TMAStdi {
     padding-left: 1rem;
     padding-right: 1rem;
-    max-width: 72rem;
-    margin: auto;
+  }
+  .tmaheader {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+  }
+  .hrline {
+    width: 30%;
+  }
+  .lii {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .temlist {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .para {
+    margin-right: 5%;
+    gap: 50px;
+  }
+  /* .ste1{
+    width: 80%;
+  } */
+  .btttn {
+    padding: 0.7rem 1.5rem;
+    font-size: 14px;
+  }
+  .TMasec {
+    width: 90%;
+    gap: 50px;
+  }
+  .circle, .circle2, .circle3 {
+    width: 50px;
+    height: 50px;
+  }
+  .lis {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .litstyle {
+    padding-top: 10px;
+  }
+  .div4tm5 {
+    gap: 10px;
+    /* Adjust the gap for smaller screens */
+  }
+
+  .div4125 {
+    justify-content: center; /* Center the content for smaller screens */
+    gap: 5px; /* Adjust the gap for smaller screens */
+    
+  }
+
+  .div4113 {
+    margin: 3vh; /* Reduce the margin for smaller screens */
+    border-radius: 10px; 
+    
+    /* Reduce the border radius for smaller screens */
+  }
 }
-.tmaheader{
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    text-align: center;
-}
-.changecolheader{
-    color: rgb(255, 98, 0);
-}
-.TMasec{
-    display: flex;
-    justify-content: center;
-}
-.ima{
-    color: transparent;
-    z-index: 20;
-    position: relative;
-}
-.buttonpara{
-    padding: 0.5rem,1.5rem,0.5rem,1.5rem;
-    border-radius: .25rem;
-    position: relative;
-}
-.spli{
-    position: relative;
-    z-index: 10;
-}
-.l1i{
-    text-decoration: inherit;
-}
-.TMAst2{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
+
+/* Media Query 2: Target screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  .TMAst {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .TMAStdi {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .tmaheader {
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+  }
+  
+  .hrline {
+    width: 40%;
+  }
+  .lii {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .temlist {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .para {
+    margin-right: 3%;
+    gap: 30px;
+  }
+  .btttn {
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+  }
+  .TMasec {
+    gap: 30px;
+  }
+  .circle, .circle2, .circle3 {
+    width: 40px;
+    height: 40px;
+  }
+  .lis {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .litstyle {
+    padding-top: 10px;
+  }
+  .div4tm5 {
+    height: auto; /* Allow content to determine height */
+  }
+
+  .div4113 {
+    height: auto; /* Allow content to determine height */
+    border-radius: 5px; /* Reduce the border radius for smaller screens */
+  }
 }
